@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A0880638-6050-4A48-BB66-283FD9C09DB2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DeviceManagement</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3268F037-D611-4EF3-ACA3-7DE3712ECE5F</key>
+		<string>https://github.com/fgh995/biao.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DeviceManagementDemo-master/DeviceManagement.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3268F037-D611-4EF3-ACA3-7DE3712ECE5F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/fgh995/biao.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3268F037-D611-4EF3-ACA3-7DE3712ECE5F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3268F037-D611-4EF3-ACA3-7DE3712ECE5F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ZSHH</string>
+		</dict>
+	</array>
+</dict>
+</plist>

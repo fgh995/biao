@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		207277A1196E7913007386DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 207277A0196E7913007386DA /* Foundation.framework */; };
+		207277A3196E7913007386DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 207277A2196E7913007386DA /* CoreGraphics.framework */; };
+		207277A5196E7913007386DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 207277A4196E7913007386DA /* UIKit.framework */; };
+		207277AB196E7913007386DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 207277A9196E7913007386DA /* InfoPlist.strings */; };
+		207277AD196E7913007386DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 207277AC196E7913007386DA /* main.m */; };
+		207277B1196E7913007386DA /* TACAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 207277B0196E7913007386DA /* TACAppDelegate.m */; };
+		207277B4196E7913007386DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 207277B2196E7913007386DA /* Main.storyboard */; };
+		207277BC196E7913007386DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 207277BB196E7913007386DA /* Images.xcassets */; };
+		207277C3196E7913007386DA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 207277C2196E7913007386DA /* XCTest.framework */; };
+		207277C4196E7913007386DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 207277A0196E7913007386DA /* Foundation.framework */; };
+		207277C5196E7913007386DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 207277A4196E7913007386DA /* UIKit.framework */; };
+		207277CD196E7913007386DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 207277CB196E7913007386DA /* InfoPlist.strings */; };
+		207277CF196E7913007386DA /* DeviceManagementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 207277CE196E7913007386DA /* DeviceManagementTests.m */; };
+		207277DD196E867D007386DA /* TACDeviceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 207277DC196E867D007386DA /* TACDeviceTableViewController.m */; };
+		207277E0196E8690007386DA /* TACRecordTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 207277DF196E8690007386DA /* TACRecordTableViewController.m */; };
+		207277E3196E871C007386DA /* TACDeviceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 207277E2196E871C007386DA /* TACDeviceDetailViewController.m */; };
+		209BF31B196F881700331A05 /* TACDeviceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 209BF31A196F881700331A05 /* TACDeviceTableViewCell.m */; };
+		20A3013B1970CA940027567A /* TACDeviceAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A3013A1970CA940027567A /* TACDeviceAddViewController.m */; };
+		20A3013E1970D4370027567A /* TACRecordDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A3013D1970D4370027567A /* TACRecordDetailViewController.m */; };
+		20A301411970D6E10027567A /* TACDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A301401970D6E10027567A /* TACDataModel.m */; };
+		20A301441970DBFD0027567A /* TACRecordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A301431970DBFD0027567A /* TACRecordModel.m */; };
+		20A301471970DC1B0027567A /* TACDeviceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A301461970DC1B0027567A /* TACDeviceModel.m */; };
+		3A01727B197238CE004A8782 /* TACRecordTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A01727A197238CE004A8782 /* TACRecordTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		207277C6196E7913007386DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20727795196E7913007386DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2072779C196E7913007386DA;
+			remoteInfo = DeviceManagement;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2072779D196E7913007386DA /* DeviceManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeviceManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		207277A0196E7913007386DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		207277A2196E7913007386DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		207277A4196E7913007386DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		207277A8196E7913007386DA /* DeviceManagement-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DeviceManagement-Info.plist"; sourceTree = "<group>"; };
+		207277AA196E7913007386DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		207277AC196E7913007386DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		207277AE196E7913007386DA /* DeviceManagement-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeviceManagement-Prefix.pch"; sourceTree = "<group>"; };
+		207277AF196E7913007386DA /* TACAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TACAppDelegate.h; sourceTree = "<group>"; };
+		207277B0196E7913007386DA /* TACAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TACAppDelegate.m; sourceTree = "<group>"; };
+		207277B3196E7913007386DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		207277BB196E7913007386DA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		207277C1196E7913007386DA /* DeviceManagementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeviceManagementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		207277C2196E7913007386DA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		207277CA196E7913007386DA /* DeviceManagementTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DeviceManagementTests-Info.plist"; sourceTree = "<group>"; };
+		207277CC196E7913007386DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		207277CE196E7913007386DA /* DeviceManagementTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceManagementTests.m; sourceTree = "<group>"; };
+		207277DB196E867D007386DA /* TACDeviceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TACDeviceTableViewController.h; sourceTree = "<group>"; };
+		207277DC196E867D007386DA /* TACDeviceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TACDeviceTableViewController.m; sourceTree = "<group>"; };
+		207277DE196E8690007386DA /* TACRecordTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TACRecordTableViewController.h; sourceTree = "<group>"; };
+		207277DF196E8690007386DA /* TACRecordTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TACRecordTableViewController.m; sourceTree = "<group>"; };
+		207277E1196E871C007386DA /* TACDeviceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TACDeviceDetailViewController.h; sourceTree = "<group>"; };
+		207277E2196E871C007386DA /* TACDeviceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TACDeviceDetailViewController.m; sourceTree = "<group>"; };
+		209BF319196F881700331A05 /* TACDeviceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TACDeviceTableViewCell.h; sourceTree = "<group>"; };
+		209BF31A196F881700331A05 /* TACDeviceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TACDeviceTableViewCell.m; sourceTree = "<group>"; };
+		20A301391970CA940027567A /* TACDeviceAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TACDeviceAddViewController.h; sourceTree = "<group>"; };
+		20A3013A1970CA940027567A /* TACDeviceAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TACDeviceAddViewController.m; sourceTree = "<group>"; };
+		20A3013C1970D4370027567A /* TACRecordDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TACRecordDetailViewController.h; sourceTree = "<group>"; };
+		20A3013D1970D4370027567A /* TACRecordDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TACRecordDetailViewController.m; sourceTree = "<group>"; };
+		20A3013F1970D6E10027567A /* TACDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TACDataModel.h; sourceTree = "<group>"; };
+		20A301401970D6E10027567A /* TACDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TACDataModel.m; sourceTree = "<group>"; };
+		20A301421970DBFD0027567A /* TACRecordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TACRecordModel.h; sourceTree = "<group>"; };
+		20A301431970DBFD0027567A /* TACRecordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TACRecordModel.m; sourceTree = "<group>"; };
+		20A301451970DC1B0027567A /* TACDeviceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TACDeviceModel.h; sourceTree = "<group>"; };
+		20A301461970DC1B0027567A /* TACDeviceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TACDeviceModel.m; sourceTree = "<group>"; };
+		3A017279197238CE004A8782 /* TACRecordTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TACRecordTableViewCell.h; sourceTree = "<group>"; };
+		3A01727A197238CE004A8782 /* TACRecordTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TACRecordTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2072779A196E7913007386DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207277A3196E7913007386DA /* CoreGraphics.framework in Frameworks */,
+				207277A5196E7913007386DA /* UIKit.framework in Frameworks */,
+				207277A1196E7913007386DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207277BE196E7913007386DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207277C3196E7913007386DA /* XCTest.framework in Frameworks */,
+				207277C5196E7913007386DA /* UIKit.framework in Frameworks */,
+				207277C4196E7913007386DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20727794196E7913007386DA = {
+			isa = PBXGroup;
+			children = (
+				207277A6196E7913007386DA /* DeviceManagement */,
+				207277C8196E7913007386DA /* DeviceManagementTests */,
+				2072779F196E7913007386DA /* Frameworks */,
+				2072779E196E7913007386DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2072779E196E7913007386DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2072779D196E7913007386DA /* DeviceManagement.app */,
+				207277C1196E7913007386DA /* DeviceManagementTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2072779F196E7913007386DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				207277A0196E7913007386DA /* Foundation.framework */,
+				207277A2196E7913007386DA /* CoreGraphics.framework */,
+				207277A4196E7913007386DA /* UIKit.framework */,
+				207277C2196E7913007386DA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		207277A6196E7913007386DA /* DeviceManagement */ = {
+			isa = PBXGroup;
+			children = (
+				209BF31C196F881D00331A05 /* Model */,
+				207277D9196E8618007386DA /* View */,
+				207277D8196E8611007386DA /* ViewController */,
+				207277AF196E7913007386DA /* TACAppDelegate.h */,
+				207277B0196E7913007386DA /* TACAppDelegate.m */,
+				207277B2196E7913007386DA /* Main.storyboard */,
+				207277BB196E7913007386DA /* Images.xcassets */,
+				207277A7196E7913007386DA /* Supporting Files */,
+			);
+			path = DeviceManagement;
+			sourceTree = "<group>";
+		};
+		207277A7196E7913007386DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				207277A8196E7913007386DA /* DeviceManagement-Info.plist */,
+				207277A9196E7913007386DA /* InfoPlist.strings */,
+				207277AC196E7913007386DA /* main.m */,
+				207277AE196E7913007386DA /* DeviceManagement-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		207277C8196E7913007386DA /* DeviceManagementTests */ = {
+			isa = PBXGroup;
+			children = (
+				207277CE196E7913007386DA /* DeviceManagementTests.m */,
+				207277C9196E7913007386DA /* Supporting Files */,
+			);
+			path = DeviceManagementTests;
+			sourceTree = "<group>";
+		};
+		207277C9196E7913007386DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				207277CA196E7913007386DA /* DeviceManagementTests-Info.plist */,
+				207277CB196E7913007386DA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		207277D8196E8611007386DA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				207277DB196E867D007386DA /* TACDeviceTableViewController.h */,
+				207277DC196E867D007386DA /* TACDeviceTableViewController.m */,
+				207277DE196E8690007386DA /* TACRecordTableViewController.h */,
+				207277DF196E8690007386DA /* TACRecordTableViewController.m */,
+				207277E1196E871C007386DA /* TACDeviceDetailViewController.h */,
+				207277E2196E871C007386DA /* TACDeviceDetailViewController.m */,
+				20A301391970CA940027567A /* TACDeviceAddViewController.h */,
+				20A3013A1970CA940027567A /* TACDeviceAddViewController.m */,
+				20A3013C1970D4370027567A /* TACRecordDetailViewController.h */,
+				20A3013D1970D4370027567A /* TACRecordDetailViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		207277D9196E8618007386DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				209BF319196F881700331A05 /* TACDeviceTableViewCell.h */,
+				209BF31A196F881700331A05 /* TACDeviceTableViewCell.m */,
+				3A017279197238CE004A8782 /* TACRecordTableViewCell.h */,
+				3A01727A197238CE004A8782 /* TACRecordTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		209BF31C196F881D00331A05 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				20A3013F1970D6E10027567A /* TACDataModel.h */,
+				20A301401970D6E10027567A /* TACDataModel.m */,
+				20A301421970DBFD0027567A /* TACRecordModel.h */,
+				20A301431970DBFD0027567A /* TACRecordModel.m */,
+				20A301451970DC1B0027567A /* TACDeviceModel.h */,
+				20A301461970DC1B0027567A /* TACDeviceModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2072779C196E7913007386DA /* DeviceManagement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 207277D2196E7913007386DA /* Build configuration list for PBXNativeTarget "DeviceManagement" */;
+			buildPhases = (
+				20727799196E7913007386DA /* Sources */,
+				2072779A196E7913007386DA /* Frameworks */,
+				2072779B196E7913007386DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeviceManagement;
+			productName = DeviceManagement;
+			productReference = 2072779D196E7913007386DA /* DeviceManagement.app */;
+			productType = "com.apple.product-type.application";
+		};
+		207277C0196E7913007386DA /* DeviceManagementTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 207277D5196E7913007386DA /* Build configuration list for PBXNativeTarget "DeviceManagementTests" */;
+			buildPhases = (
+				207277BD196E7913007386DA /* Sources */,
+				207277BE196E7913007386DA /* Frameworks */,
+				207277BF196E7913007386DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				207277C7196E7913007386DA /* PBXTargetDependency */,
+			);
+			name = DeviceManagementTests;
+			productName = DeviceManagementTests;
+			productReference = 207277C1196E7913007386DA /* DeviceManagementTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20727795196E7913007386DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TAC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Tom Hu";
+				TargetAttributes = {
+					207277C0196E7913007386DA = {
+						TestTargetID = 2072779C196E7913007386DA;
+					};
+				};
+			};
+			buildConfigurationList = 20727798196E7913007386DA /* Build configuration list for PBXProject "DeviceManagement" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20727794196E7913007386DA;
+			productRefGroup = 2072779E196E7913007386DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2072779C196E7913007386DA /* DeviceManagement */,
+				207277C0196E7913007386DA /* DeviceManagementTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2072779B196E7913007386DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207277BC196E7913007386DA /* Images.xcassets in Resources */,
+				207277AB196E7913007386DA /* InfoPlist.strings in Resources */,
+				207277B4196E7913007386DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207277BF196E7913007386DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207277CD196E7913007386DA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20727799196E7913007386DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209BF31B196F881700331A05 /* TACDeviceTableViewCell.m in Sources */,
+				207277E3196E871C007386DA /* TACDeviceDetailViewController.m in Sources */,
+				20A301411970D6E10027567A /* TACDataModel.m in Sources */,
+				207277AD196E7913007386DA /* main.m in Sources */,
+				20A3013E1970D4370027567A /* TACRecordDetailViewController.m in Sources */,
+				3A01727B197238CE004A8782 /* TACRecordTableViewCell.m in Sources */,
+				20A301471970DC1B0027567A /* TACDeviceModel.m in Sources */,
+				20A301441970DBFD0027567A /* TACRecordModel.m in Sources */,
+				207277B1196E7913007386DA /* TACAppDelegate.m in Sources */,
+				207277DD196E867D007386DA /* TACDeviceTableViewController.m in Sources */,
+				20A3013B1970CA940027567A /* TACDeviceAddViewController.m in Sources */,
+				207277E0196E8690007386DA /* TACRecordTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207277BD196E7913007386DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207277CF196E7913007386DA /* DeviceManagementTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		207277C7196E7913007386DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2072779C196E7913007386DA /* DeviceManagement */;
+			targetProxy = 207277C6196E7913007386DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		207277A9196E7913007386DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				207277AA196E7913007386DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		207277B2196E7913007386DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				207277B3196E7913007386DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		207277CB196E7913007386DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				207277CC196E7913007386DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		207277D0196E7913007386DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		207277D1196E7913007386DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		207277D3196E7913007386DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeviceManagement/DeviceManagement-Prefix.pch";
+				INFOPLIST_FILE = "DeviceManagement/DeviceManagement-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		207277D4196E7913007386DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeviceManagement/DeviceManagement-Prefix.pch";
+				INFOPLIST_FILE = "DeviceManagement/DeviceManagement-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		207277D6196E7913007386DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DeviceManagement.app/DeviceManagement";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeviceManagement/DeviceManagement-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DeviceManagementTests/DeviceManagementTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		207277D7196E7913007386DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DeviceManagement.app/DeviceManagement";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeviceManagement/DeviceManagement-Prefix.pch";
+				INFOPLIST_FILE = "DeviceManagementTests/DeviceManagementTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20727798196E7913007386DA /* Build configuration list for PBXProject "DeviceManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				207277D0196E7913007386DA /* Debug */,
+				207277D1196E7913007386DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		207277D2196E7913007386DA /* Build configuration list for PBXNativeTarget "DeviceManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				207277D3196E7913007386DA /* Debug */,
+				207277D4196E7913007386DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		207277D5196E7913007386DA /* Build configuration list for PBXNativeTarget "DeviceManagementTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				207277D6196E7913007386DA /* Debug */,
+				207277D7196E7913007386DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20727795196E7913007386DA /* Project object */;
+}

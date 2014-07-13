@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D43D765A-7D53-42AA-9639-E84EB56D843C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DeviceManagement</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3268F037-D611-4EF3-ACA3-7DE3712ECE5F</key>
+		<string>https://github.com/fgh995/zsh-s-text.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DeviceManagement.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3268F037-D611-4EF3-ACA3-7DE3712ECE5F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/fgh995/zsh-s-text.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3268F037-D611-4EF3-ACA3-7DE3712ECE5F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3268F037-D611-4EF3-ACA3-7DE3712ECE5F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ZSHH</string>
+		</dict>
+	</array>
+</dict>
+</plist>
